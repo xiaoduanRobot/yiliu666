@@ -1,0 +1,15 @@
+小端AI (xiaoduan-ai-desktop)
+Copyright 2024-2026 yiliu(诺言)
+
+本产品包含由以下第三方项目开发的软件：
+
+- Electron (https://www.electronjs.org/) - MIT License
+- Chromium (https://www.chromium.org/) - BSD-3-Clause License
+- Playwright (https://playwright.dev/) - Apache-2.0 License
+- Node.js (https://nodejs.org/) - MIT License
+- ffmpeg (https://ffmpeg.org/) - GPL-2.0-or-later (含 x264/x265 等 GPL 组件)
+- axios (https://github.com/axios/axios) - MIT License
+- ws (https://github.com/websockets/ws) - MIT License
+- iconv-lite (https://github.com/ashtuchkin/iconv-lite) - MIT License
+- robotjs (https://github.com/octalmage/robotjs) - MIT License
+- @larksuiteoapi/node-sdk (https://github.com/larksuiteoapi/node-sdk) - MIT License
