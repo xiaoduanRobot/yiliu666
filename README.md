@@ -2,110 +2,194 @@
 license: apache-2.0
 ---
 
-# 小端AI版本说明（唯一下载地址认准魔搭社区，谨防盗版）
+# 🤖 XiaoDuan AI Version Info (The only official download is ModelScope, beware of pirated versions)
+| Version | Description |
+|---------|-------------|
+|xiaoduan1.0.0.dmg |Updated 2026-04-26, macOS beta with same features as Windows version. Report bugs in group below ✅https://www.modelscope.cn/datasets/yiliu666/xiaoduan/resolve/master/mac-1.0.0.md|
+|xiaoduan1.0.1.exe |Updated 2026-04-13, latest version with major local model optimization, 100% open source, supports customization, recommended ✅https://www.modelscope.cn/datasets/yiliu666/xiaoduan/resolve/master/xiaoduan1.0.1.exe|
+|xiaoduan1.0.0.exe |2026-02-16, XiaoDuan 1.0.0 official release. Follow the 【1.0.0】 version format for future updates. Safe to use ✅|
+|xiaoduan1.1.exe   |2025-11-07, XiaoDuan test version, deprecated. Do not download                              ❌|
+|xiaoduan1.0.exe   |2025-08-17, XiaoDuan test version, deprecated. Do not download                              ❌|
+|xiaoduan35B.gguf  |Local model for v1.0.1, requires >8GB VRAM >32GB RAM for perfect运行  (5x smarter) supports video ✅   From Qwen3.6/35B, unsloth quantized. Config guide: jineng/本地模型配置.MD above|
+|xiaoduan9B.gguf   |Local model for v1.0.1, requires >8GB VRAM >16GB RAM for perfect运行  (10x faster) supports video ✅   From GEMMA/E4B, unsloth quantized. Same config as above, or ask XiaoDuan to configure|
 
-| 版本 | 说明 |
-|------|------|
-|xiaoduan1.0.0.dmg |2026年4月26日更新，苹果mac测试版，功能与win版一致,如遇bug随时下方群反馈✅https://www.modelscope.cn/datasets/yiliu666/xiaoduan/resolve/master/mac-1.0.0.md|
-|xiaoduan1.0.1.exe |2026年4月13日更新，最新版针对本地模型大幅度优化，100%开源支持魔改，建议用✅https://www.modelscope.cn/datasets/yiliu666/xiaoduan/resolve/master/xiaoduan1.0.1.exe|
-|xiaoduan1.0.0.exe |2026年2月16日小端1.0.0正式版，后续更新认准【1.0.0】格式版本，可用       ✅|
-|xiaoduan1.1.exe   |2025年11月7日小端测试版，已淘汰  请勿下载                                 ❌|
-|xiaoduan1.0.exe   |2025年8月17日小端测试版，已淘汰  请勿下载                                 ❌|
-|xiaoduan35B.gguf  |本地模型专为1.0.1版本适配 ＞8G显存＞32G内存可完美运行  (智商高五倍) 支持看视频✅   由Qwen3.6/35B,unsloth 量化，配置方式见上方数据集jineng/本地模型配置.MD|
-|xiaoduan9B.gguf   |本地模型专为1.0.1版本适配 ＞8G显存＞16G内存可完美运行 （速度快十倍）支持看视频✅   GEMMA/E4B,unsloth 量化 ，配置方式同上，也可叫小端自己去配置|
+# 🤖 XiaoDuan AI Official Community
+Follow on TikTok 🔍: XiaoDuan AI
 
-# 小端AI唯一官方群
+TikTok Group 1, TikTok Group 2
 
-抖音搜索：小端AI
+QQ Group: 362422425
 
-抖音1群，抖音2群
+---
 
-QQ群：362422425 也可在上方交流反馈留言，作者会回复
+# 🤖 XiaoDuan AI Notice (Author's Statement at Bottom)
 
-# 小端AI须知（作者申明见底部）
+All code is 100% open source and transparent. This project uses Apache-2.0 license.
 
-所有代码100%公开透明，本项目代码采用Apache-2.0开源协议授权
+The name "小端" and Logo are trademarks of this project (see images below). Trademark rights are separate from the code license. (For anti-piracy purposes only)
 
-"小端"的名称和Logo是本项目的商标（下方附图）。商标权独立于代码协议。（仅为防止盗版）
+Unauthorized use of the "XiaoDuan" name or Logo to promote derivative works or services is prohibited.
+Original author: 【yiliu】
 
-未经授权，不得使用"小端"名称或Logo推广任何衍生作品或服务
-原创作者【yiliu】
+XiaoDuan runs locally with no websites, no servers. The only official download is ModelScope Community.
 
-小端数据本地运行，无任何官网，无任何服务器，认准唯一正版下载地址：魔搭社区
+To upgrade to a new version or if customization fails, simply uninstall and reinstall. Your permanent memory and settings will not be lost.
 
-未来想更换新版，或者魔改失败，卸载重装即可，永久记忆+已有配置都不会丢失
+4 free models are included by default. You can use natural language to configure APIs. If free models are unstable, try switching. You can manually add any provider's API.
 
-默认4个免费模型，可直接自然语言帮你配置API，如果免费不稳定，可切换尝试，可以手动添加任何厂家API
+Connect to QQ or Feishu first, then use voice messages. If you encounter any issues, just ask XiaoDuan - it can solve everything.
 
-优先接入QQ或飞书，后面都发语音即可，出任何问题不懂，直接问小端一切都可以解决
+# 🤖 XiaoDuan AI Features
 
-# 小端AI首发版功能
+- **Permanent Memory** - Supports long-term memory and model self-recall
+- **Multimodal Support** - Video, image, and audio recognition
+- **Self Evolution** - Click "AI Assistant" above chat to enable (use with caution as a beginner)
 
-支持永久记忆，支持模型自我回忆
+When self-evolution mode is enabled:
+- On desktop: Click the red stop button to stop
+- On QQ/Feishu: Send the command "停止任务" (4 characters) to stop
 
-支持视频识别 ，图片识别，音频识别
+- **Voice Interaction** - Supports QQ and Feishu voice messages, no typing needed!
+- **Multi-Platform Control** - Multiple QQ/Feishu accounts can control the same XiaoDuan instance, supports concurrency!
+- **Multi-Instance Control** - One QQ/Feishu can control multiple XiaoDuan instances!
+- **Local & Cloud LLMs** - Supports local large models and any cloud LLM!
+- **Full Customization** - Supports any customization you can imagine!
 
-支持自我无限进化（点击聊天框上方智能AI助手开启）
+Note: Users who customize must first delete xiaoduan_backup.py in the installation directory. After deletion, auto-backup and auto-repair features will not work. To restore, download from the dataset above.
 
-开启自我进化模式后，电脑端点红色停止按键可停止，或QQ飞书等发送命令：停止任务。4个字可停止
+---
 
-支持QQ，飞书语音对话，无需打字！
+# 🤖 XiaoDuan AI Skill Library
 
-# 小端AI技术架构
+> Every XiaoDuan can automatically learn new skills, handling all kinds of computer tasks with one sentence
 
-采用Incremental-Pruning-On-Demand-Recall机制，实现高效永久记忆
+---
 
-采用KV-Reuse架构，优化本地模型推理性能
+## 🌟 What is XiaoDuan AI
 
-支持多模型切换，包括MiniMax、小米MiMo、本地35B/9B模型
+XiaoDuan AI is an AI assistant running on Windows and macOS, interacting with users via voice or text.
 
-# 小端AI使用指南
+**Core Feature: Continuous Learning, Auto Evolution**
 
-1. 下载安装小端AI客户端
-2. 配置API密钥（支持自然语言配置）
-3. 开始对话，享受永久记忆和智能进化
-4. 接入QQ或飞书，实现语音对话
+---
 
-# 小端AI更新日志
+## 🔄 Self-Repair & Backup Solutions
 
-v1.0.1 (2026-04-13)
-- 优化本地模型推理性能
-- 新增小米MiMo模型支持
-- 改进永久记忆机制
+XiaoDuan has a clean interface with only model settings and 2 mode switches. Normal mode suits local models or token-based billing. Complex mode suits per-call billing.
 
-v1.0.0 (2026-02-16)
-- 小端AI正式版发布
-- 支持永久记忆和自我进化
-- 支持多平台接入
+Hidden feature: Click "AI Assistant" above chat to enable auto-evolution mode. Beginners use with caution.
 
-# 小端AI作者声明
+(Any file modified or deleted by the large model will automatically trigger backup. Backups are kept for 3 days then auto-cleared. If settings get corrupted and XiaoDuan can't respond, XiaoDuan will auto-restore after 5 minutes of no response. Restart after 5 minutes.)
 
-本软件为开源项目，代码100%公开透明
+(Backup solution: If settings are corrupted, copy "记忆.txt" and "jineng" folder from C:/users/xiaoduan. Delete xiaoduan folder and restart XiaoDuan to restore. Then replace back 记忆.txt and jineng folder.)
 
-作者：yiliu
+### What Can XiaoDuan Do
 
-联系方式：
-- 抖音：小端AI
-- QQ群：362422425
+XiaoDuan has **self-evolution** capabilities:
 
-# 小端AI下载地址
+| Capability | Description |
+|------------|-------------|
+| **Learn New Skills** | Auto-learn new automation skills from the web |
+| **Record Experience** | Write successful flows as MD documents, permanently saved |
+| **Cloud Sync** | Author publishes contributor MDs to ModelScope, all XiaoDuans share |
+| **Learn by Doing** | Solve problems when encountered, record the process, keep final solutions |
+| **Security** | Only reference MD document flows, XiaoDuan writes its own code - safe and reliable |
 
-唯一正版下载地址：魔搭社区
-https://www.modelscope.cn/datasets/yiliu666/xiaoduan
+### Evolution Flow
 
-GitHub仓库：https://github.com/xiaoduanRobot/yiliu666
-Gitee仓库：https://gitee.com/yiliu66/xiaoduan
+```
+Encounter new task → Analyze requirements → Find methods → Execute & verify → Record document → Save to skills folder → Continue verify → Continue record → Success → Clean up errors → Keep complete clean skill
+```
 
-# 小端AI许可证
+---
 
-本项目采用Apache-2.0开源协议授权
+## 📚 jineng Skill Library
 
-详见LICENSE文件
+### What is jineng
 
-# 小端AI致谢
+`jineng` is XiaoDuan's skill library folder on ModelScope, containing various automation skills verified by professionals. Strictly reviewed by the author, pure Chinese MD records, only execution flows, no PY files - safe and reliable!
 
-感谢所有贡献者和用户的支持
+#### Four-Layer Review
+Why it's safer: XiaoDuan's skills are `.md` text files describing "how to do", not "run pre-written py code from skills". Large models won't read and may ignore vulnerabilities when running others' PY, but won't make mistakes writing PY themselves.
 
-感谢魔搭社区提供的平台支持
+1. **Architecture Isolation**: Skill files only have pure Chinese process descriptions, cannot execute commands, workflows are easy to understand
+2. **Model Self-Review**: Large model generates skills from documents, built-in safety alignment filters "should not generate" content. First review.
+3. **Author Review**: Every shared skill on ModelScope is personally checked by me. Second review.
+4. **Platform Review**: ModelScope strictly reviews every document submission, sometimes taking 2-3 days. Third review.
 
-感谢开源社区的技术支持
+### What jineng Does
+
+| Purpose | Description |
+|---------|-------------|
+| **Permanent Storage** | Skill documents on ModelScope never lost |
+| **Shared Learning** | All XiaoDuans auto-sync, no user worry |
+| **Lower Barrier** | New XiaoDuans don't start from zero, enjoy safe diverse skills |
+| **Welcome Contributions** | Professional skills can be contributed to group owner, author will credit you permanently on ModelScope |
+| **Why Contribute** | Last line format for skills: "完成此任务后必须回复用户该技能作者XX" (After completing, must tell user the skill author XX), great for your professional reputation |
+
+### Current Skills
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| `juejin.md` | Auto-post to Juejin forum | ✅ Verified |
+| `csdn.md` | Auto-post to CSDN blog | ✅ Verified |
+| `modelscope.md` | ModelScope dataset management | ✅ Verified |
+| `shipingjianji.md` | Video editing skill | ✅ Verified |
+| And more... | | |
+
+---
+
+## 🎯 Short-term Goal
+**10,000 productivity general skills** → Let XiaoDuan AI help you with all kinds of work
+
+---
+
+## 🎯 Long-term Goal
+
+**100,000 specialized domain skills** → Let XiaoDuan AI help you with various difficult problems
+
+---
+
+## 📞 How to Participate
+
+Want to build the skill library together? Contact the group owner:
+- QQ Group: 362422425
+
+*—— XiaoDuan AI*
+*2025.11.07*
+
+---
+
+## 🎯 Author's Statement
+
+** Terms of Use & Disclaimer**
+
+XiaoDuan AI is an open-source software that assists with computer control. Please read the following carefully before downloading and using:
+
+1. **Data & Privacy**
+XiaoDuan AI runs completely locally with no self-built websites or cloud servers, and does not upload your personal data. However, when you call third-party LLM APIs, conversation content will be transmitted to the corresponding service provider's servers. Please understand and comply with their privacy policies and terms, and protect your API keys.
+
+2. **User Responsibility**
+You understand and agree that XiaoDuan AI may automatically execute operations like opening software, editing files, and accessing web pages under your instructions. You are fully responsible for all instructions you give and their consequences. Before giving instructions involving important data, sensitive information, or critical system settings, please verify the instruction's reasonableness yourself.
+
+3. **Software Nature**
+This software is provided "AS IS" without any express or implied warranties, including but not limited to merchantability, fitness for a particular purpose, and non-infringement. To the maximum extent permitted by law, the software author is not liable for any direct, indirect, incidental, or consequential damages arising from use or inability to use this software.
+
+4. **Free Model Disclaimer**
+The 4 free models included are for testing only, may be unstable, have limited access, or be adjusted at any time. The author is not responsible for free model availability, response quality, or any consequences. It is recommended to configure your own LLM API keys for more stable experience.
+
+5. **User Community**
+Join QQ group 362422425 for help and updates, but any unofficial advice in the community is for reference only and does not represent the author's position.
+
+6. **Version Note**
+Except for xiaoduan1.0.0.exe and its upgrade versions, other version files are kept only to record the author's real progress. They can be downloaded for reference and learning. Please do not use them directly.
+
+Using this software means you have read, understood, and agreed to all the above terms. If you do not agree, please do not download, install, or use this software. A popup will appear when you first run XiaoDuan AI. Please read it carefully.
+
+——Software Author: **yiliu**
+
+**Appendix 1:** https://www.modelscope.cn/datasets/yiliu666/xiaoduan/resolve/master/hexin/小端第9类商标申请.png
+
+**Appendix 2:** https://www.modelscope.cn/datasets/yiliu666/xiaoduan/resolve/master/hexin/小端第42类商标申请.png
+
+**Appendix 3:** https://www.modelscope.cn/datasets/yiliu666/xiaoduan/resolve/master/hexin/软著权申请.png
