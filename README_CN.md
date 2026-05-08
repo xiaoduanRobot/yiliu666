@@ -194,6 +194,8 @@ https://juejin.cn/post/7631972087612506122  （提倡优化KV缓存复用）
 
 https://juejin.cn/post/7630832226424750106  （作者自述：小端AI来时路）
 
+https://juejin.cn/post/7637271996707422248  （小端AI vs OpenClaw vs Hermes —— 三方客观对比）
+
 附件：
 
 附图1：https://www.modelscope.cn/datasets/yiliu666/xiaoduan/resolve/master/hexin/小端第9类商标申请.png
